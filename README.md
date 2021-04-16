@@ -6,6 +6,8 @@ Bu repo [kodluyoruz](https://www.kodluyoruz.org) Front-End eğitiminde oluşturd
 
 
 
+![](projeresmi.png)
+
 
 
 ## Installation
@@ -70,10 +72,3 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
-
-## Proje Gorseli
-
-
-
- ![Lorem Picsum Gorsel](https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/git/odev1/figures/markdown.png)
