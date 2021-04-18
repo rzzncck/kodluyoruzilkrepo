@@ -1,0 +1,112 @@
+<ul>
+    <li></li>
+</ul>
+<h1></h1>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!-- 
+    etiket isimlerini direkt verebilyioruz
+    + kardes oge (arka arkaya ekleme)
+    > içinde yapmak için 
+    ^ yukarı cık (içinde yaptıgımız sıradan çıkmak için)
+    * çarp kaç adet olmasını istediğimizi burada gösteriyorz.
+    lorem  -> eski ve anlamsız yazılardır. içeriye rastgele yazı yazmaktır.
+    . -> class oluşturmada kullanılıyor.
+    # -> id oluşturma
+ -->
+
+ <!-- ul>li*3^p -->
+ <ul>
+     <li></li>
+     <li></li>
+     <li></li>    
+ </ul>
+ <p></p>
+
+  <!-- ul>li*3^p+h3 -->
+  <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+  </ul>
+  <p></p>
+  <h3></h3>
+
+  <!-- p>lorem -->
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum inventore perferendis, eligendi rem qui quas eos asperiores minima placeat. Placeat excepturi repellendus vitae incidunt est ea dicta maxime voluptatem odio?</p>
+
+  <!-- lorem4 dersek 4 kelimelik lorem yazısı oluşturur -->
+  <!-- p>lorem4 -->
+  <p>Lorem ipsum dolor sit.</p>
+  <!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem4 --> yanlış oluşturdum.
+
+  <ul>
+      <li>Lorem.</li>
+      <li>Quaerat.</li>
+      <li>Nihil.</li>
+      <p>
+          Lorem ipsum dolor sit.
+          <h3>Lorem.</h3>
+      </p>
+      <p>
+          Recusandae earum dicta provident.
+          <h3>Incidunt.</h3>
+      </p>
+  </ul>
+<!-- olması gereken iki tane ^^ kullanmamız gerek.-->
+  <!--  ul>li*3>lorem1^^p*2>lorem4^h3>lorem4 -->
+  <ul>
+      <li>Lorem.</li>
+      <li>Aut?</li>
+      <li>Facere?</li>
+  </ul>
+  <p>Lorem ipsum dolor sit.</p>
+  <p>Error id maxime labore!</p>
+  <h3>Lorem, ipsum.</h3>
+<!-- h3.deneme yapınca  -->
+  <h3 class="deneme"></h3>
+  <h3 class="deneme">Lorem.</h3>
+
+  <!-- h3#idolussun -->
+  <h3 id="idolussun">Lorem.</h3>
+  <!-- h3.deneme#idolussun>lorem1 -->
+  <h3 class="deneme" id="idolussun">Lorem.</h3>
+  <!-- birden fazla class olusacaksa bosluk bırakmadan yazılır. -->
+  <h3 class="birinci-class ikinci-class"></h3>
+  <h3 class="kodluyoruz html"></h3>
+  <!--  . ve # tepki özelliği var   -->
+  <!-- .tepki yazınca  -->
+  <div class="tepki"></div>
+  <!-- ul>li.tepki -->
+  <ul>
+      <li class="tepki"></li>
+  </ul>
+  <!-- ul>.tepki -->
+  <ul>
+      <li class="tepki"></li>
+  </ul>
+  <!-- ul>.test-red*3 -->
+  <ul>
+      <li class="test-red"></li>
+      <li class="test-red"></li>
+      <li class="test-red"></li>
+  </ul>
+
+<!-- otomatik artış için $ işareti kullanılır. -->
+<!-- ul>li#idNo$*3 id no 1 2 3 oluşur -->
+<ul>
+    <li id="idNo1"></li>
+    <li id="idNo2"></li>
+    <li id="idNo3"></li>
+</ul>
+<h2 id="footer"> en alt kısım</h2>
+<img width="500" height="500" src="https://picsum.photos/600/800" alt="">
+<p>Lorem ipsum dolor sit amet.</p>
